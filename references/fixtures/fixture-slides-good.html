@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>Q3 经营汇报</title>
+<style>
+  :root { --bg: #F7F4EE; --ink: #1C1A17; --accent: #A63D2F; }
+  body { background: var(--bg); color: var(--ink); font-family: "Noto Sans SC", "PingFang SC", sans-serif; }
+  .hero-title { font-family: "Noto Serif SC", serif; font-size: 44px; }
+  .bar { background: #A63D2F; }
+  .note { font-size: 13px; color: #1C1A17; }
+</style>
+</head>
+<body>
+  <section class="slide">
+    <h1 class="hero-title" data-edit-slot="title">Q3 营收回暖，但利润仍承压</h1>
+    <p data-edit-slot="subtitle">2024 年三季度经营汇报</p>
+  </section>
+  <section class="slide">
+    <h2 data-edit-slot="title">营收趋势</h2>
+    <div class="bar" data-source="财报.pdf P3" data-key="2024营收(亿)" data-value="12.6" style="width:126px">12.6亿</div>
+    <div class="bar" data-source="财报.pdf P3" data-key="2023营收(亿)" data-value="11.2" style="width:112px">11.2亿</div>
+    <p class="note" data-edit-slot="source">数据来源：财报.pdf P3</p>
+  </section>
+</body>
+</html>
