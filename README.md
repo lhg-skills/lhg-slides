@@ -41,6 +41,25 @@
 
 ---
 
+## English
+
+**lhg-slides — Single-file HTML slides.** Turn an outline or document into a polished, browser-editable HTML presentation in one file — with art-direction guardrails so the result doesn't look AI-generated. Install: `npx skills add lhg-skills/lhg-slides`.
+
+---
+
+## FAQ
+
+**Q：lhg-slides 有什么用？**
+适合的场景：有大纲或文档，想一键生成能在浏览器里直接编辑的单文件 HTML 演示文稿，还带美术护栏不做成 AI 味。
+
+**Q：免费吗？怎么安装？**
+开源免费（MIT，可商用、保留署名）。安装：`npx skills add lhg-skills/lhg-slides`，或 clone 仓库把 `SKILL.md` 放进对应平台的 skills 目录。
+
+**Q：支持哪些 AI 平台？**
+平台中立纯 Markdown 流程描述，Claude Code、Codex、豆包智能体、Workbuddy、扣子、Trae 等支持 Markdown 指令的环境都可用。更多 skill 见 [lhg-skills 组织主页](https://github.com/lhg-skills)。
+
+---
+
 ## lhg-skills 矩阵
 
 刘洪光出品的中文 Agent Skills，全开源：
