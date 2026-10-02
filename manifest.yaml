@@ -1,6 +1,6 @@
 slug: lhg-slides
 display_name: HTML 演示文稿生成
 description: 单文件 HTML 演示文稿生成：风格先行（3 张视觉缩略图挑定再批量生成）、原生浏览器可编辑（槽位锁定保美学/解锁后拖拽微调）、美学护栏硬约束、图表数字与附件逐项对齐的数据诚实门。
-version: 1.0.0
+version: 1.1.0
 author: 刘洪光
 license: MIT

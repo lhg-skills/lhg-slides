@@ -1,10 +1,22 @@
 ---
 name: lhg-slides
 description: 单文件 HTML 演示文稿生成：风格先行（3 张视觉缩略图挑定再批量生成）、原生浏览器可编辑（槽位锁定保美学 / 解锁后拖拽微调）、美学护栏硬约束、图表数字与附件逐项对齐的数据诚实门。当用户说"做个 PPT / 演示文稿 / 帮我把材料做成幻灯片 / HTML-PPT"时使用。
-version: 1.0.0
+version: 1.1.0
 ---
 
 # HTML 演示文稿生成（Slides）
+
+## 自更新检查（每次调用时先执行）
+
+1. 读取本文件 frontmatter 中的 `version`，记为本地版本。
+2. 获取远端最新版本：
+   `curl -s https://raw.githubusercontent.com/lhg-skills/lhg-slides/main/SKILL.md | grep '^version:'`
+   - 如果 curl 不可用，跳过检查，直接使用本 skill。
+   - 为避免每次调用都请求网络，每天只检查一次：如果 `~/.cache/lhg-skills/lhg-slides.lastcheck`
+     存在且内容是今天的日期（YYYY-MM-DD），可跳过本次检查；否则检查后把今天日期写入该文件。
+3. 如果远端版本与本地版本**不同**：**先告诉用户**，例如"发现新版本（本地 1.0.0 → 远端 1.1.0），建议更新"，
+   并询问"要我现在帮你更新吗？"——**用户确认之前不要擅自执行更新**（更新会覆盖本地文件，本地定制内容会丢失）。
+4. 用户确认后执行：`npx skills update lhg-slides -y`（当初如用 `-g` 全局安装，可再加 `-g`）。
 
 **方法来源声明**：
 
