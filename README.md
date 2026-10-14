@@ -2,14 +2,21 @@
 
 > **一句话**：输入大纲或文档，一键生成带美术护栏、可在浏览器内直接编辑的单文件 HTML 演示文稿。
 >
-> **一键安装**：`npx skills add lhg-skills/lhg-slides`
-
+> **开发者安装**（能访问 GitHub 时）：`npx skills add lhg-skills/lhg-slides`
 
 带美术护栏、可浏览器内编辑的单文件 HTML 演示文稿 skill：**风格先行挑定再批量生成，原生可编辑不返工，美学护栏是硬约束，图表数字与附件逐项对齐**（lhg-skills 出品；生成工作流借鉴 zarazhangrui/frontend-slides（MIT），可编辑运行时借鉴 archlizheng/frontend-slides-editable（MIT），美学方法论借鉴 op7418/guizang-ppt-skill（AGPL-3.0，仅思路，未用其代码与模板资产））。
 
 **流程**：Phase 0 判模式（NOT for 清单）→ Phase 1 七问澄清 + 数据诚实清单（附件数字逐项登记，无来源不许上图）→ Phase 2 风格先行（3 张视觉缩略图看图挑，4 套主题锁死禁自定义 hex，定稿才批量）→ Phase 3 生成（零依赖单文件、16:9 固定舞台、槽位/对象双模式第一页植入、编辑运行时随文件交付）→ Phase 4 美学护栏（主题锁死/字号收敛/hero-non-hero 交替/动效克制四条硬约束）→ Phase 5 中文排版专项（字体栈/标点/标题降档）→ Phase 6 数据诚实门（生成后逐项核对，拦截返工）→ Phase 7 双模式交付（只读轻量版 vs 可编辑版）+ 演讲者模式。
 
 **触发**：用户说"做个 PPT / 演示文稿 / 把材料做成幻灯片 / HTML-PPT"时使用。
+
+## 发给 Agent 的安装话术（推荐）
+
+复制下面整段话，发给你的 Agent（豆包 / WorkBuddy / Claude Code / Codex / Cursor 等）：
+
+> 请帮我安装 Skill「lhg-slides」：先从 Gitee 上 lhg-skills 组织下的 lhg-slides 仓库下载；如果 Gitee 无法访问或下载失败，改从 GitHub 上 lhg-skills 组织下的同名仓库下载。按当前 Agent 的规范安装其中的 Skill，优先全局安装，保留完整目录和依赖。请直接执行，完成后验证是否安装成功，告诉我实际使用的来源、安装的版本号以及如何调用；遇到访问或安装限制请说明具体原因。
+
+**怎么算装好了**：Agent 能在已安装的 Skill 里看到 `lhg-slides`，并报出版本号（与仓库 `manifest.yaml` 的 `version` 一致）。只是打开了仓库网页不算安装。
 
 ## 安装
 
