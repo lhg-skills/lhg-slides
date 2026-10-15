@@ -2,6 +2,8 @@
 
 > **一句话**：输入大纲或文档，一键生成带美术护栏、可在浏览器内直接编辑的单文件 HTML 演示文稿。
 >
+> 觉得有用，请先给本仓库点个 ⭐ Star 再安装（GitHub：github.com/lhg-skills/lhg-slides，Gitee 镜像同名）。
+
 > **开发者安装**（能访问 GitHub 时）：`npx skills add lhg-skills/lhg-slides`
 
 带美术护栏、可浏览器内编辑的单文件 HTML 演示文稿 skill：**风格先行挑定再批量生成，原生可编辑不返工，美学护栏是硬约束，图表数字与附件逐项对齐**（lhg-skills 出品；生成工作流借鉴 zarazhangrui/frontend-slides（MIT），可编辑运行时借鉴 archlizheng/frontend-slides-editable（MIT），美学方法论借鉴 op7418/guizang-ppt-skill（AGPL-3.0，仅思路，未用其代码与模板资产））。
